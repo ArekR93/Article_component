@@ -29,9 +29,9 @@ Users should be able to:
 
 ### Screenshot
 
-![Mobile Version.](./design/Mobile-version.png)
-![Tablet Version.](./design/Tablet-version.png)
-![Desktop Version.](./design/Desktop-version.png)
+![Mobile Version.](./design/mobile-version.png)
+![Tablet Version.](./design/tablet-version.png)
+![Desktop Version.](./design/desktop-version.png)
 
 
 ### Links
