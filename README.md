@@ -36,7 +36,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: https://www.frontendmentor.io/solutions/article-component-html-sass-js-hNsHmOqBC5
 - Live Site URL: https://arekr93.github.io/Article_component/
 
 ## My process
