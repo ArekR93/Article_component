@@ -1,0 +1,34 @@
+*,*::before, *::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 62,5%;
+    background-color: rgb(211, 211, 252);
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.article-component{
+    margin: 3em 1em;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #fff;
+    .header-img{
+        width: 100%;
+    }
+    .article-body{
+        padding: 2em 1em;
+        .article-title{
+            font-weight: 600;
+            color: rgb(29, 28, 28);
+            font-size: 1.1rem;
+        }
+    }
+}
