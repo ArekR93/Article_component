@@ -16,19 +16,90 @@ body{
 }
 
 .article-component{
+    position: relative;
     margin: 3em 1em;
-    border-radius: 25px;
+    border-radius: 15px;
     overflow: hidden;
     background-color: #fff;
+    box-shadow: 0 0 3px rgb(0, 0, 0);
     .header-img{
         width: 100%;
     }
     .article-body{
-        padding: 2em 1em;
+        
+        padding: 1em 1.2em;
         .article-title{
             font-weight: 600;
             color: rgb(29, 28, 28);
             font-size: 1.1rem;
         }
+        .article-text{
+            margin-top: 1em;
+            font-size: 1rem;
+            color: rgb(112, 108, 108);
+        }
+        .author-box{
+            opacity: 1;
+            display: block;
+            margin-top: 2em;
+            display: flex;
+            align-items: center;
+            .author-img{
+                border-radius: 50%;
+                width: 50px;
+            }
+            .author-info{
+                margin-left: 1em;
+                .author-name{
+                    font-weight: bold;
+                }
+                .article-date{
+                    color: rgb(112,108,108);
+                }
+            }
+            .share-btn{
+                border-radius: 50%;
+                border: none;
+                width: 35px;
+                height: 35px;
+                margin-left: 1.3em;
+                cursor: pointer;
+            }
+
+        }
+        .author-hide{
+            opacity: 0;
+        }
+
     }
+    .popup{
+        display: flex;
+        align-items: center;
+        bottom: 0;
+        padding: 1em;
+        width: 100%;
+        position: absolute;
+        background-color: #48556A;
+        .popup-text{
+            text-transform: uppercase;
+            color: #8a99b3;
+            letter-spacing: .2em;
+            margin-right: 1em;
+        }
+        .icon{
+            margin-right: 1em;
+        }
+        .share-btn2{
+            border-radius: 50%;
+            border: none;
+            width: 35px;
+            height: 35px;
+            margin-left: 1.3em;
+            cursor: pointer;
+        }
+    }
+    .popup-hide{
+        display: none;
+    }
+
 }
