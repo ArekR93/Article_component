@@ -98,4 +98,80 @@ body {
 }
 .article-component .popup-hide {
   display: none;
+}
+
+footer {
+  padding: 1em;
+  text-align: center;
+}
+footer a {
+  text-decoration: none;
+  color: #285f4d;
+}
+
+@media (min-width: 768px) {
+  .article-component {
+    margin: 3em 5em;
+  }
+  .article-component .article-body .article-title {
+    font-size: 2rem;
+  }
+  .article-component .article-body .article-text {
+    font-size: 1.3rem;
+  }
+  .article-component .article-body .author-box {
+    display: flex;
+    justify-content: center;
+  }
+  .article-component .article-body .author-box .author-img, .article-component .article-body .author-box .author-info {
+    margin-right: 4em;
+  }
+  .article-component .popup {
+    justify-content: center;
+  }
+  footer {
+    font-size: 1.5rem;
+    padding: 1em;
+    text-align: center;
+  }
+  footer a {
+    text-decoration: none;
+    color: #285f4d;
+  }
+}
+@media (min-width: 1200px) {
+  .article-component {
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+  }
+  .article-component .header-img {
+    width: 40%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+  }
+  .article-component .article-body {
+    margin: 1.5em;
+  }
+  .article-component .article-body .article-text {
+    margin-top: 1.5em;
+  }
+  .article-component .article-body .author-box {
+    justify-content: flex-start;
+  }
+  .article-component .article-body .author-box .author-img {
+    margin-right: 0em;
+  }
+  .article-component .article-body .author-box .author-info {
+    margin-right: 13em;
+  }
+  .article-component .popup {
+    bottom: 100px;
+    width: 300px;
+    border-radius: 10px;
+    right: -100px;
+  }
+  .article-component .popup .share-btn2 {
+    display: none;
+  }
 }/*# sourceMappingURL=main.css.map */

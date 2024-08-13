@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', function(){
 
 
     const showPopup = () => {
-        popup.classList.remove('popup-hide')
+        popup.classList.toggle('popup-hide')
     }
     const hidePopup = () => {
         popup.classList.add('popup-hide')
